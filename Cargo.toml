@@ -2,7 +2,7 @@
 name = "ocr_core_rs"
 version = "0.1.0"
 edition = "2021"
-description = "OCR Core Rust implementation"
+description = "OCR (On-Chain Repository) Core Rust implementation"
 authors = ["Kris Bitney, Jure Bogunovic"]
 repository = "https://github.com/krisbitney/ocr_core_rs"
 license = "MIT"

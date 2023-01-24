@@ -1,2 +1,2 @@
 # OCR Core RS
-Rust implementation of [OCR Core](https://github.com/nerfZael/ocr-core)
+Rust implementation of [OCR (On-Chain Repository) Core](https://github.com/nerfZael/ocr-core)
