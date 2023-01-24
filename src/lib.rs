@@ -7,5 +7,4 @@ pub mod abi;
 pub mod util;
 
 use ocr_id::*;
-use abi::*;
 use util::*;
