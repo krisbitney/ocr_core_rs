@@ -1,6 +1,9 @@
+//! Utility functions for working with OCR contenthash data
+
 use crate::{OCR_PROTOCOL_ID};
 
-pub fn vec_to_array<T, const N: usize>(v: Vec<T>) -> Result<[T; N], String> {
+/// Convert a vector to a fixed-size array
+pub (crate) fn vec_to_array<T, const N: usize>(v: Vec<T>) -> Result<[T; N], String> {
     v.try_into().map_err(|v: Vec<T>|
         format!("Expected Vec of length {}. Received Vec of length {}.", N, v.len())
     )

@@ -1,3 +1,5 @@
+//!  OCR contenthash encoding and decoding
+
 use hex;
 use crate::util::{encode_fixed_bytes, decode_fixed_bytes, vec_to_array};
 use std::convert::TryInto;
